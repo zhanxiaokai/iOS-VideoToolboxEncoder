@@ -10,11 +10,26 @@
 		18419BFE1E5E805700CE25FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419BFD1E5E805700CE25FE /* main.m */; };
 		18419C011E5E805700CE25FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C001E5E805700CE25FE /* AppDelegate.m */; };
 		18419C041E5E805700CE25FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C031E5E805700CE25FE /* ViewController.m */; };
-		18419C071E5E805700CE25FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18419C051E5E805700CE25FE /* Main.storyboard */; };
 		18419C091E5E805700CE25FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18419C081E5E805700CE25FE /* Assets.xcassets */; };
 		18419C0C1E5E805700CE25FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18419C0A1E5E805700CE25FE /* LaunchScreen.storyboard */; };
 		18419C171E5E805700CE25FE /* VideoToolboxEncoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C161E5E805700CE25FE /* VideoToolboxEncoderTests.m */; };
 		18419C221E5E805700CE25FE /* VideoToolboxEncoderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C211E5E805700CE25FE /* VideoToolboxEncoderUITests.m */; };
+		18419C301E5E809E00CE25FE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18419C2F1E5E809E00CE25FE /* ViewController.xib */; };
+		18419C5B1E5E849F00CE25FE /* ELPushStreamViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18419C411E5E849F00CE25FE /* ELPushStreamViewController.mm */; };
+		18419C5C1E5E849F00CE25FE /* ELImageVideoScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C441E5E849F00CE25FE /* ELImageVideoScheduler.m */; };
+		18419C5D1E5E849F00CE25FE /* ELImageContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C471E5E849F00CE25FE /* ELImageContext.m */; };
+		18419C5E1E5E849F00CE25FE /* ELImageDirectPassRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C491E5E849F00CE25FE /* ELImageDirectPassRenderer.m */; };
+		18419C5F1E5E849F00CE25FE /* ELImageOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C4B1E5E849F00CE25FE /* ELImageOutput.m */; };
+		18419C601E5E849F00CE25FE /* ELImageProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C4D1E5E849F00CE25FE /* ELImageProgram.m */; };
+		18419C611E5E849F00CE25FE /* ELImageTextureFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C4F1E5E849F00CE25FE /* ELImageTextureFrame.m */; };
+		18419C621E5E849F00CE25FE /* ELImageCameraRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C521E5E849F00CE25FE /* ELImageCameraRenderer.m */; };
+		18419C631E5E849F00CE25FE /* ELImageVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C541E5E849F00CE25FE /* ELImageVideoCamera.m */; };
+		18419C641E5E849F00CE25FE /* ELImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C571E5E849F00CE25FE /* ELImageView.m */; };
+		18419C651E5E849F00CE25FE /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C5A1E5E849F00CE25FE /* CommonUtil.m */; };
+		18419C6A1E5E89EA00CE25FE /* ELImageEncoderRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18419C671E5E89EA00CE25FE /* ELImageEncoderRenderer.mm */; };
+		18419C6B1E5E89EA00CE25FE /* ELImageVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18419C691E5E89EA00CE25FE /* ELImageVideoEncoder.m */; };
+		18419C711E5E8A5500CE25FE /* H264HwEncoderHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18419C6E1E5E8A5500CE25FE /* H264HwEncoderHandler.mm */; };
+		18419C721E5E8A5500CE25FE /* H264HwEncoderImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18419C701E5E8A5500CE25FE /* H264HwEncoderImpl.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +56,6 @@
 		18419C001E5E805700CE25FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18419C021E5E805700CE25FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18419C031E5E805700CE25FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18419C061E5E805700CE25FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18419C081E5E805700CE25FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18419C0B1E5E805700CE25FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18419C0D1E5E805700CE25FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +65,38 @@
 		18419C1D1E5E805700CE25FE /* VideoToolboxEncoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoToolboxEncoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18419C211E5E805700CE25FE /* VideoToolboxEncoderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoToolboxEncoderUITests.m; sourceTree = "<group>"; };
 		18419C231E5E805700CE25FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18419C2F1E5E809E00CE25FE /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		18419C3F1E5E849F00CE25FE /* ELPushStreamConfigeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELPushStreamConfigeration.h; sourceTree = "<group>"; };
+		18419C401E5E849F00CE25FE /* ELPushStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELPushStreamViewController.h; sourceTree = "<group>"; };
+		18419C411E5E849F00CE25FE /* ELPushStreamViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ELPushStreamViewController.mm; sourceTree = "<group>"; };
+		18419C431E5E849F00CE25FE /* ELImageVideoScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELImageVideoScheduler.h; sourceTree = "<group>"; };
+		18419C441E5E849F00CE25FE /* ELImageVideoScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELImageVideoScheduler.m; sourceTree = "<group>"; };
+		18419C461E5E849F00CE25FE /* ELImageContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELImageContext.h; sourceTree = "<group>"; };
+		18419C471E5E849F00CE25FE /* ELImageContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELImageContext.m; sourceTree = "<group>"; };
+		18419C481E5E849F00CE25FE /* ELImageDirectPassRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELImageDirectPassRenderer.h; sourceTree = "<group>"; };
+		18419C491E5E849F00CE25FE /* ELImageDirectPassRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELImageDirectPassRenderer.m; sourceTree = "<group>"; };
+		18419C4A1E5E849F00CE25FE /* ELImageOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELImageOutput.h; sourceTree = "<group>"; };
+		18419C4B1E5E849F00CE25FE /* ELImageOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELImageOutput.m; sourceTree = "<group>"; };
+		18419C4C1E5E849F00CE25FE /* ELImageProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELImageProgram.h; sourceTree = "<group>"; };
+		18419C4D1E5E849F00CE25FE /* ELImageProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELImageProgram.m; sourceTree = "<group>"; };
+		18419C4E1E5E849F00CE25FE /* ELImageTextureFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELImageTextureFrame.h; sourceTree = "<group>"; };
+		18419C4F1E5E849F00CE25FE /* ELImageTextureFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELImageTextureFrame.m; sourceTree = "<group>"; };
+		18419C511E5E849F00CE25FE /* ELImageCameraRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELImageCameraRenderer.h; sourceTree = "<group>"; };
+		18419C521E5E849F00CE25FE /* ELImageCameraRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELImageCameraRenderer.m; sourceTree = "<group>"; };
+		18419C531E5E849F00CE25FE /* ELImageVideoCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELImageVideoCamera.h; sourceTree = "<group>"; };
+		18419C541E5E849F00CE25FE /* ELImageVideoCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELImageVideoCamera.m; sourceTree = "<group>"; };
+		18419C561E5E849F00CE25FE /* ELImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELImageView.h; sourceTree = "<group>"; };
+		18419C571E5E849F00CE25FE /* ELImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELImageView.m; sourceTree = "<group>"; };
+		18419C591E5E849F00CE25FE /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		18419C5A1E5E849F00CE25FE /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		18419C661E5E89EA00CE25FE /* ELImageEncoderRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELImageEncoderRenderer.h; sourceTree = "<group>"; };
+		18419C671E5E89EA00CE25FE /* ELImageEncoderRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ELImageEncoderRenderer.mm; sourceTree = "<group>"; };
+		18419C681E5E89EA00CE25FE /* ELImageVideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELImageVideoEncoder.h; sourceTree = "<group>"; };
+		18419C691E5E89EA00CE25FE /* ELImageVideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELImageVideoEncoder.m; sourceTree = "<group>"; };
+		18419C6D1E5E8A5500CE25FE /* H264HwEncoderHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H264HwEncoderHandler.h; sourceTree = "<group>"; };
+		18419C6E1E5E8A5500CE25FE /* H264HwEncoderHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = H264HwEncoderHandler.mm; sourceTree = "<group>"; };
+		18419C6F1E5E8A5500CE25FE /* H264HwEncoderImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H264HwEncoderImpl.h; sourceTree = "<group>"; };
+		18419C701E5E8A5500CE25FE /* H264HwEncoderImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = H264HwEncoderImpl.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +147,20 @@
 		18419BFB1E5E805700CE25FE /* VideoToolboxEncoder */ = {
 			isa = PBXGroup;
 			children = (
+				18419C3F1E5E849F00CE25FE /* ELPushStreamConfigeration.h */,
+				18419C401E5E849F00CE25FE /* ELPushStreamViewController.h */,
+				18419C411E5E849F00CE25FE /* ELPushStreamViewController.mm */,
+				18419C421E5E849F00CE25FE /* ImageClient */,
+				18419C581E5E849F00CE25FE /* utils */,
 				18419BFF1E5E805700CE25FE /* AppDelegate.h */,
 				18419C001E5E805700CE25FE /* AppDelegate.m */,
 				18419C021E5E805700CE25FE /* ViewController.h */,
 				18419C031E5E805700CE25FE /* ViewController.m */,
-				18419C051E5E805700CE25FE /* Main.storyboard */,
 				18419C081E5E805700CE25FE /* Assets.xcassets */,
 				18419C0A1E5E805700CE25FE /* LaunchScreen.storyboard */,
 				18419C0D1E5E805700CE25FE /* Info.plist */,
 				18419BFC1E5E805700CE25FE /* Supporting Files */,
+				18419C2F1E5E809E00CE25FE /* ViewController.xib */,
 			);
 			path = VideoToolboxEncoder;
 			sourceTree = "<group>";
@@ -138,6 +189,80 @@
 				18419C231E5E805700CE25FE /* Info.plist */,
 			);
 			path = VideoToolboxEncoderUITests;
+			sourceTree = "<group>";
+		};
+		18419C421E5E849F00CE25FE /* ImageClient */ = {
+			isa = PBXGroup;
+			children = (
+				18419C6C1E5E8A5500CE25FE /* encoder */,
+				18419C431E5E849F00CE25FE /* ELImageVideoScheduler.h */,
+				18419C441E5E849F00CE25FE /* ELImageVideoScheduler.m */,
+				18419C451E5E849F00CE25FE /* imageCore */,
+				18419C501E5E849F00CE25FE /* imageInput */,
+				18419C551E5E849F00CE25FE /* imageOutput */,
+			);
+			path = ImageClient;
+			sourceTree = "<group>";
+		};
+		18419C451E5E849F00CE25FE /* imageCore */ = {
+			isa = PBXGroup;
+			children = (
+				18419C461E5E849F00CE25FE /* ELImageContext.h */,
+				18419C471E5E849F00CE25FE /* ELImageContext.m */,
+				18419C481E5E849F00CE25FE /* ELImageDirectPassRenderer.h */,
+				18419C491E5E849F00CE25FE /* ELImageDirectPassRenderer.m */,
+				18419C4A1E5E849F00CE25FE /* ELImageOutput.h */,
+				18419C4B1E5E849F00CE25FE /* ELImageOutput.m */,
+				18419C4C1E5E849F00CE25FE /* ELImageProgram.h */,
+				18419C4D1E5E849F00CE25FE /* ELImageProgram.m */,
+				18419C4E1E5E849F00CE25FE /* ELImageTextureFrame.h */,
+				18419C4F1E5E849F00CE25FE /* ELImageTextureFrame.m */,
+			);
+			path = imageCore;
+			sourceTree = "<group>";
+		};
+		18419C501E5E849F00CE25FE /* imageInput */ = {
+			isa = PBXGroup;
+			children = (
+				18419C511E5E849F00CE25FE /* ELImageCameraRenderer.h */,
+				18419C521E5E849F00CE25FE /* ELImageCameraRenderer.m */,
+				18419C531E5E849F00CE25FE /* ELImageVideoCamera.h */,
+				18419C541E5E849F00CE25FE /* ELImageVideoCamera.m */,
+			);
+			path = imageInput;
+			sourceTree = "<group>";
+		};
+		18419C551E5E849F00CE25FE /* imageOutput */ = {
+			isa = PBXGroup;
+			children = (
+				18419C661E5E89EA00CE25FE /* ELImageEncoderRenderer.h */,
+				18419C671E5E89EA00CE25FE /* ELImageEncoderRenderer.mm */,
+				18419C681E5E89EA00CE25FE /* ELImageVideoEncoder.h */,
+				18419C691E5E89EA00CE25FE /* ELImageVideoEncoder.m */,
+				18419C561E5E849F00CE25FE /* ELImageView.h */,
+				18419C571E5E849F00CE25FE /* ELImageView.m */,
+			);
+			path = imageOutput;
+			sourceTree = "<group>";
+		};
+		18419C581E5E849F00CE25FE /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				18419C591E5E849F00CE25FE /* CommonUtil.h */,
+				18419C5A1E5E849F00CE25FE /* CommonUtil.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		18419C6C1E5E8A5500CE25FE /* encoder */ = {
+			isa = PBXGroup;
+			children = (
+				18419C6D1E5E8A5500CE25FE /* H264HwEncoderHandler.h */,
+				18419C6E1E5E8A5500CE25FE /* H264HwEncoderHandler.mm */,
+				18419C6F1E5E8A5500CE25FE /* H264HwEncoderImpl.h */,
+				18419C701E5E8A5500CE25FE /* H264HwEncoderImpl.mm */,
+			);
+			path = encoder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +375,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18419C0C1E5E805700CE25FE /* LaunchScreen.storyboard in Resources */,
+				18419C301E5E809E00CE25FE /* ViewController.xib in Resources */,
 				18419C091E5E805700CE25FE /* Assets.xcassets in Resources */,
-				18419C071E5E805700CE25FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +401,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18419C611E5E849F00CE25FE /* ELImageTextureFrame.m in Sources */,
 				18419C041E5E805700CE25FE /* ViewController.m in Sources */,
+				18419C651E5E849F00CE25FE /* CommonUtil.m in Sources */,
+				18419C5B1E5E849F00CE25FE /* ELPushStreamViewController.mm in Sources */,
+				18419C631E5E849F00CE25FE /* ELImageVideoCamera.m in Sources */,
+				18419C641E5E849F00CE25FE /* ELImageView.m in Sources */,
+				18419C6A1E5E89EA00CE25FE /* ELImageEncoderRenderer.mm in Sources */,
+				18419C721E5E8A5500CE25FE /* H264HwEncoderImpl.mm in Sources */,
 				18419C011E5E805700CE25FE /* AppDelegate.m in Sources */,
 				18419BFE1E5E805700CE25FE /* main.m in Sources */,
+				18419C5D1E5E849F00CE25FE /* ELImageContext.m in Sources */,
+				18419C5E1E5E849F00CE25FE /* ELImageDirectPassRenderer.m in Sources */,
+				18419C6B1E5E89EA00CE25FE /* ELImageVideoEncoder.m in Sources */,
+				18419C711E5E8A5500CE25FE /* H264HwEncoderHandler.mm in Sources */,
+				18419C5C1E5E849F00CE25FE /* ELImageVideoScheduler.m in Sources */,
+				18419C5F1E5E849F00CE25FE /* ELImageOutput.m in Sources */,
+				18419C601E5E849F00CE25FE /* ELImageProgram.m in Sources */,
+				18419C621E5E849F00CE25FE /* ELImageCameraRenderer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +454,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18419C051E5E805700CE25FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18419C061E5E805700CE25FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18419C0A1E5E805700CE25FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -427,8 +559,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MY5GTD35UJ;
 				INFOPLIST_FILE = VideoToolboxEncoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.changba.ktv.VideoToolboxEncoder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -439,8 +572,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MY5GTD35UJ;
 				INFOPLIST_FILE = VideoToolboxEncoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.changba.ktv.VideoToolboxEncoder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
